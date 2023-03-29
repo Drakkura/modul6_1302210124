@@ -22,9 +22,9 @@ namespace modul6_1302210124.modul6_1302210124
 
         public int GetTotaVideoPlayCount() {
             int totaVideoPlayCount = 0;
-            foreach(SayaTubeVideo video in uploadedVideos)
+            foreach(SayaTubeVideo a in uploadedVideos)
             {
-                totaVideoPlayCount += video.getPlayCount();
+                totaVideoPlayCount += a.getPlayCount();
             }
             return totaVideoPlayCount;
         }
